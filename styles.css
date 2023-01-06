@@ -28,3 +28,21 @@ a{
     text-decoration: none;
     color: white;
 }
+
+.topContainer {
+    display: flex;
+    background-color: darkblue;
+    color: white;
+}
+
+.signup1 {
+    background-color: lightblue;
+    font-size: 8px;
+    border-radius: 8px;
+}
+
+.topimage{
+    display: flex;
+    justify-content: center;
+}
+
