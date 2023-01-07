@@ -148,3 +148,26 @@ a{
     font-weight: 600;
     font-size: 18px;
 }
+
+.signupContainer {
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.modal {
+    display: flex;
+    border-radius: 8px;
+    padding: 18px 24px;
+    margin: 70px 0;
+    background-color: rgb(7, 148, 203);
+}
+
+.text.cta {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+
+}
