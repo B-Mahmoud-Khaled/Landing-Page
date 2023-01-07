@@ -120,5 +120,6 @@ a{
 
 .instrument {
     width: 200px;
+    border-radius: 8px;
 }
 
