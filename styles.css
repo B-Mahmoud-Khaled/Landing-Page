@@ -90,11 +90,32 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: aliceblue ;
+    padding: 20px;
 }
 
-.text .middle{
+.text.middle{
     display: flex;
     justify-content: center;
+    font-weight: 800;
+    font-size: 36px; 
+    margin-bottom: 30px;
+}
+
+.infosection {
+    display: flex ;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info .text {
+        max-width: 200px;
+        text-align: center;
 }
 
 .instrument {
