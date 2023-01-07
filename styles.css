@@ -46,5 +46,8 @@ a{
 .topimage{
     display: flex;
     justify-content: center;
+    width: 500px;
+    height: auto;
+    border-radius: 8px;
 }
 
