@@ -20,6 +20,11 @@ body {
     font-weight: 700;
 }
 
+.left .logo{
+    width: 100px;
+    margin: 0 8px;
+}
+
 ul {
     list-style: none;
     display: flex;
