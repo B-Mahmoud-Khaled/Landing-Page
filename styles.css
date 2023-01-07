@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: darkblue;
+    background-color: rgb(11, 55, 122);
     color: white;
     padding: 0 10px;
 }
@@ -31,7 +31,8 @@ a{
 
 .topContainer {
     display: flex;
-    background-color: darkblue;
+    flex-direction: column;
+    background-color: rgb(11, 55, 122);
     color: white;
 }
 
@@ -39,6 +40,7 @@ a{
     background-color: lightblue;
     font-size: 8px;
     border-radius: 8px;
+    flex-shrink: 0;
 }
 
 .topimage{
