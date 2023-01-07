@@ -12,7 +12,7 @@ body {
     align-items: center;
     background-color: rgb(7, 148, 203);
     color: white;
-    padding: 0 10px;
+    padding: 0 60px;
 }
 
 .left {
@@ -177,7 +177,18 @@ a{
 }
 
 .text.message {
-    color: rgb(236, 231, 231);
-
+    color: rgb(219, 219, 219);
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 148, 203);
+    padding: 30px;
+}
+
+.copyrights {
+    color: white;
+    font-weight: 600;
+}
