@@ -31,28 +31,36 @@ a{
 
 .topContainer {
     display: flex;
-    flex-direction: column;
     background-color: rgb(11, 55, 122);
     color: white;
+    align-items: center;
 }
 
-.signup1 {
-    background-color: lightblue;
+.topleft {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.learnmore {
+    background-color: rgb(11, 55, 122);
     font-size: 8px;
-    border-radius: 8px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
     flex-shrink: 0;
 }
 
 .topimage{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     width: 500px;
     height: auto;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 .instrument {
     width: 200px;
-    
+
 }
 
